@@ -14,9 +14,8 @@ public class PersonRepositoryTests {
   private PersonRepository personRepository;
 
   @Test
-  public void nulltest() {
-    Person byName = personRepository.findByName("test");
-    System.out.println(byName);
+  public void nullTest() {
+
   }
 
 }
